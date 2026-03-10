@@ -1,14 +1,14 @@
 import React from "react"
-import Navbar from "./Components/Navbar/Navbar"
-import CenterText from "../src/Components/Center/CenterText"
+
+import LoadParent from "./Components/Loading/LoadParent"
+import Home from "./Components/LandindPage/Home";
 
 const App=() =>{
   return(
-     <div className="h-screen w-full bg-cover bg-center bg-[url(https://images.prismic.io/arock-website-2023/d4147892-cb03-4582-af32-326bb109803f_AROCK-_1502.jpg?fm=webp&q=100&fit=crop)]">
-
-      <Navbar />
-      <CenterText />
-     </div>
+    <div className="h-screen bg-[#111] overflow-hidden ">
+    <LoadParent />
+     <Home />
+    </div>
   )
 }
 export default App;
