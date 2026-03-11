@@ -7,7 +7,7 @@ import MenuPage from "./Menu/MenuPage";
 const App=() =>{
   return(
     <div className="h-screen bg-[#111] overflow-hidden ">
-     <MenuPage /> 
+     {/* <MenuPage />  */}
     <LoadParent />
      <Home />
     </div>
